@@ -10,7 +10,7 @@ from textblob import TextBlob
 
 st.sidebar.title("Whatsapp Chat Analyser")
 
-uploaded_file = st.sidebar.file_uploader("Choose a file")
+uploaded_file = st.sidebar.file_uploader("Choose a Whatsapp Chat File Exported From Whatsapp")
 
 if uploaded_file is not None:
     bytes_data = uploaded_file.getvalue()
