@@ -7,12 +7,6 @@ import altair as alt
 from textblob import TextBlob
 
 
-from urlextract import URLExtract
-from wordcloud import WordCloud
-import pandas as pd
-from collections import Counter
-import emoji 
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 st.sidebar.title("Whatsapp Chat Analyser")
 
